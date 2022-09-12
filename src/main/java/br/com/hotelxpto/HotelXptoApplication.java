@@ -1,4 +1,4 @@
-package br.com.hotelxpto.hotelxpto;
+package br.com.hotelxpto;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
