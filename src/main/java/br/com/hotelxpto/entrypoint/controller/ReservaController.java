@@ -1,7 +1,7 @@
 package br.com.hotelxpto.entrypoint.controller;
 
-import br.com.hotelxpto.dataprovider.entity.Reserva;
 import br.com.hotelxpto.service.ReservaService;
+import br.com.hotelxpto.service.domain.ReservaDomainResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,8 +17,8 @@ public class ReservaController {
     private ReservaService service;
 
     @GetMapping
-    public ResponseEntity<List<Reserva>> findAll(){
-        List<Reserva> list = service.findAll();
+    public ResponseEntity<List<ReservaDomainResponse>> findAll(){
+        List<ReservaDomainResponse> list = service.findAll();
         return ResponseEntity.ok().body(list);
     }
 

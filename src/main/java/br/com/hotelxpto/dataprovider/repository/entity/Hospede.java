@@ -1,7 +1,6 @@
-package br.com.hotelxpto.dataprovider.entity;
+package br.com.hotelxpto.dataprovider.repository.entity;
 
 import lombok.Data;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
@@ -10,7 +9,6 @@ import java.util.Date;
 @Data
 @NoArgsConstructor
 @Entity
-@Getter
 @Table(name = "tb_hospede")
 public class Hospede {
 

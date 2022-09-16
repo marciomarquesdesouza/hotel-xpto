@@ -1,7 +1,6 @@
-package br.com.hotelxpto.dataprovider.entity;
+package br.com.hotelxpto.dataprovider.repository.entity;
 
 import lombok.Data;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
@@ -11,7 +10,6 @@ import java.time.LocalDate;
 @Data
 @NoArgsConstructor
 @Entity
-@Getter
 @Table(name = "tb_reserva")
 public class Reserva implements Serializable {
 

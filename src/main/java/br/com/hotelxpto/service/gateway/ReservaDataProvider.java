@@ -1,10 +1,9 @@
-package br.com.hotelxpto.service;
+package br.com.hotelxpto.service.gateway;
 
-import br.com.hotelxpto.dataprovider.repository.entity.Reserva;
 import br.com.hotelxpto.service.domain.ReservaDomainResponse;
 
 import java.util.List;
 
-public interface ReservaService {
+public interface ReservaDataProvider {
     List<ReservaDomainResponse> findAll();
 }
