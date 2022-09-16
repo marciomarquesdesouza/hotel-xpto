@@ -1,4 +1,4 @@
-package br.com.hotelxpto.hotelxpto;
+package br.com.hotelxpto;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
