@@ -1,6 +1,6 @@
 package br.com.hotelxpto.dataprovider.repository.entity;
 
-import br.com.hotelxpto.dataprovider.enums.Cargo;
+import br.com.hotelxpto.dataprovider.repository.entity.enums.Cargo;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
